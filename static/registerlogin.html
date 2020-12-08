@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <a href="/">main</a>
+        <a href="/register">register</a>
+        <a href="/login">login</a>
+        <a href="/admin">admin</a>
+        <a href="/logout">logout</a>
+    </header>
+    <div id="div">
+        <h1>register</h1>
+        <form action="/register" method="POST">
+            <label for="login">Login:</label>
+            <input type="login" id="login" name="login" value="">
+            <br>
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" value="">
+            <br>
+            <label for="wiek">Wiek:</label>
+            <select id="wiek" name="wiek">
+                <option value="10">10</option>
+                <option value="11">11</option>
+                <option value="12">12</option>
+                <option value="13">13</option>
+                <option value="14">14</option>
+                <option value="15">15</option>
+                <option value="16">16</option>
+                <option value="17">17</option>
+                <option value="18">18</option>
+                <option value="19">19</option>
+                <option value="20">20</option>
+            </select>
+            <br>
+            <label for="uczen">Uczeń?:</label>
+            <input type="checkbox" id="uczen" name="uczen" value="check">
+            <br>
+            <label for="plec">Płeć:</label>
+            <label for="k">K</label>
+            <input type="radio" id="k" name="plec" value="K">
+            <label for="m">M</label>
+            <input type="radio" id="m" name="plec" value="M">
+            <br>
+            <input type="submit" value="Submit">
+        </form>
+    </div>
+</body>
+</html>
