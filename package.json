@@ -1,0 +1,16 @@
+{
+  "name": "express_project",
+  "version": "1.0.0",
+  "description": "wrrr",
+  "main": "server01.js",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server01.js"
+  },
+  "author": "kacper górecki",
+  "license": "ISC"
+}
